@@ -1,0 +1,22 @@
+{
+  "name": "gitops-nodeapp",
+  "version": "1.0.0",
+  "description": "Node.js microservice demonstrating GitOps with ArgoCD",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node src/app.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "kubernetes",
+    "gitops",
+    "argocd",
+    "nodejs",
+    "microservice"
+  ],
+  "author": "spelluri",
+  "license": "MIT"
+}
